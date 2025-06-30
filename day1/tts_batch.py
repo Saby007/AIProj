@@ -45,8 +45,8 @@ def download_results(result_url, speech_key, output_file="results.zip"):
     print(f"Results downloaded to {output_file}")
 
 def main():
-    speech_key = "8TUj4KeOFT36haPGFVSvk1fpgj6DWCh9EMqzXRN782YnSVNX587JJQQJ99BFACHYHv6XJ3w3AAAYACOG8fNJ"
-    speech_endpoint = "https://eastus2.api.cognitive.microsoft.com/"  # e.g., "https://eastus.api.cognitive.microsoft.com"
+    speech_key = "<your_speech_key>"
+    speech_endpoint = "<your_speech_endpoint>"  
     synthesis_id = "123"  # Use a unique string or uuid
 
     payload = {

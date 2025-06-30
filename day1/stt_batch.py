@@ -39,8 +39,8 @@ def get_results(speech_endpoint, speech_key, transcription_id):
         print(f"{file['kind']}: {file['links']['contentUrl']}")
 
 def main():
-    speech_key = "8TUj4KeOFT36haPGFVSvk1fpgj6DWCh9EMqzXRN782YnSVNX587JJQQJ99BFACHYHv6XJ3w3AAAYACOG8fNJ"
-    speech_endpoint = "https://eastus2.api.cognitive.microsoft.com"  # e.g., "https://eastus.api.cognitive.microsoft.com"
+    speech_key = "<your_speech_key>"
+    speech_endpoint = "<your_speech_endpoint>"  # e.g., "https://eastus.api.cognitive.microsoft.com"
     payload = {
         "contentUrls": [
             "https://crbn.us/hello.wav",
