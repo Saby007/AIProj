@@ -16,7 +16,7 @@ def recognize_from_microphone():
     speech_config = speechsdk.SpeechConfig(subscription=speech_key, region=region)
     speech_config.speech_recognition_language="en-US"
 
-    audio_config = speechsdk.audio.AudioConfig(filename="C:\\Users\\ssamadda\\OneDrive - Microsoft\\Documents\\Work\\Workshops\\AOAI\\Trimble\\audio.wav")
+    audio_config = speechsdk.audio.AudioConfig(filename="")
     speech_recognizer = speechsdk.SpeechRecognizer(speech_config=speech_config, audio_config=audio_config)
     speech_recognition_result = speech_recognizer.recognize_once_async().get()
 
